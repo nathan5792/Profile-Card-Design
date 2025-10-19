@@ -27,7 +27,7 @@ This is my solution to the [Profile-Card-Component-Preview on Frontend Mentor](h
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://nathan5792.github.io/Profile-Card-Design/
 
 ## My process
 -Started by setting up the basic HTML structure with semantic elements.
