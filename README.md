@@ -26,7 +26,7 @@ This is my solution to the [Profile-Card-Component-Preview on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/nathan5792/Profile-Card-Design.git
 - Live Site URL: https://nathan5792.github.io/Profile-Card-Design/
 
 ## My process
