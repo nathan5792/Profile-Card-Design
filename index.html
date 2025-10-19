@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  
+  
+  <title>Profile-card-component</title>
+
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    :root{
+    --Blue-600: hsl(185, 75%, 39%);
+    --Navy-950: hsl(229, 23%, 23%);
+    --Gray-500: hsl(227, 10%, 46%);
+    --Gray-100: hsl(225, 10%, 92%);
+    }
+    body{
+       background-color: var(--Blue-600);
+       min-height: 100vh;
+       display: grid;
+       place-content: center; 
+       font-family: 'Kumbh Sans', sans-serif;
+        background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    }
+    .main{
+      background-color: white;
+      border-radius: 20px;
+    }
+    img{
+      max-width: 100%;
+      display: block;
+      border-radius: 20px 20px 0 0;
+    }
+    .victor{
+      display: grid;
+      justify-items: center;
+    }
+    .victor img{
+      border-radius: 50%;
+    }
+    .victor h3{
+      margin: 20px 0 10px;
+      font-size: 18px;
+      color: var(--Navy-950);
+      font-weight: 700;
+    }
+    .victor p{
+      font-size: 15px;
+    }
+    .victor span{
+      color: var(--Gray-500);
+      font-size: 18px;
+    }
+    p, small{
+    color: var(--Gray-500);
+    }
+    .insta{
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid var(--Gray-100);
+      gap: 50px;
+      margin: 20px 0 20px;
+      padding-top: 30px;
+    }
+    .insta h3{
+      font-size: 19px;
+      font-weight: bold;
+      color: var(--Navy-950);
+    }
+    .insta small{
+      letter-spacing: 2px;
+      font-size: 10px;
+    }
+    .followers{
+      display: grid;
+      gap: 5px;
+    }
+    .followers h3{
+      padding-left: 12px;
+    }
+    .likes small{
+      padding-left: 8px;
+    }
+    .photos h3{
+      padding-left: 3px;
+    }
+    
+    .likes{
+      display: grid;
+      gap: 5px;
+    }
+    .photos{
+      display: grid;
+      gap: 5px;
+    }
+    .main-sub{
+      margin-top: -50px;
+    }
+    @media (max-width: 650px){
+      body{
+        background-position: right 52vw bottom 35vh, left 30vw top 45vh;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="top"></div>
+  <div class="bottom"></div>
+  <div class="main">
+    <img src="./images/bg-pattern-card.svg" alt="">
+    <div class="main-sub">
+    <div class="victor">
+    <img src="./images/image-victor.jpg" alt="">
+      <h3>Victor Crest  <span>26</span></h3>
+      <p>London</p>
+    </div>
+    <div class="insta">
+      <div class="followers">
+        <h3>80K</h3>
+        <small>Followers</small>
+      </div>
+      <div class="likes">
+        <h3>803K</h3>
+        <small>Likes</small>
+      </div>
+      <div class="photos">
+        <h3>1.4K</h3>
+        <small>Photos</small>
+      </div>
+      
+    </div>
+    </div>
+  </div>
+</body>
+</html>
